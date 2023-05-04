@@ -37,7 +37,9 @@ $$content\_loss = \frac{1}{2}(content\_img - target\_img)^2$$
 Gram matrix:
 
 $$G = \frac{1}{c*h*w}(target\_img.target\_img^T)$$
-$\newline$
+
+
 $$A = \frac{1}{c*h*w}(style\_img.style\_img^T)$$
+
 
 $$style\_loss = \frac{1}{2*c*h*w}.(G - A)^2$$
